@@ -1,0 +1,17 @@
+﻿<Window x:Class="asignacion2.ConvertirDeLetANumer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:asignacion2"
+        mc:Ignorable="d"
+        Title="ConvertirDeLetANumer" Height="194" Width="629">
+    <Grid Background="#FF06D3CF">
+        <Label Content="Numero" HorizontalAlignment="Left" Margin="91,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.48,0.569"/>
+        <Label Content="Numero Escrito" HorizontalAlignment="Left" Margin="91,106,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextNumero" HorizontalAlignment="Left" Margin="189,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextEscrito" HorizontalAlignment="Left" Margin="189,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" IsEnabled="False"/>
+        <Button Content="Convertir" HorizontalAlignment="Left" Margin="328,74,0,0" VerticalAlignment="Top" Click="BtnConverti"/>
+
+    </Grid>
+</Window>

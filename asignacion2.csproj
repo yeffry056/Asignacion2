@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="book_1427.png" />
+    <None Remove="icono.icon.png" />
+    <None Remove="x1AJ8Tp.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="book_1427.png" />
+    <Resource Include="icono.icon.png" />
+    <Resource Include="x1AJ8Tp.jpg" />
+  </ItemGroup>
+
+</Project>
